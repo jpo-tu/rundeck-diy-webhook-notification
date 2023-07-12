@@ -1,7 +1,6 @@
 buildscript {
     repositories {
         maven { url 'https://plugins.gradle.org/m2/'}
-        maven { url 'http://dl.bintray.com/content/aalmiray/kordamp' }
     }
 
     dependencies {
@@ -44,9 +43,9 @@ repositories {
 }
 
 dependencies {
-    compile group: 'org.rundeck', name: 'rundeck-core', version: '2.6.9'
+    compile group: 'org.rundeck', name: 'rundeck-core', version: '4.14.1-20230622'
 	pluginLibs(
-	 'nl.big-o:liqp:0.7.5'
+	 'nl.big-o:liqp:0.8.5.3'
 	)
 }
 
